@@ -8,6 +8,8 @@ Archivos necesarios para el desarrollo del proyecto lefnica.
 
 ### Archivos
 
+- Manual lefnica.pdf: Es el manual del proyecto, en el que encontrarás la documentación y el paso a paso para recrear este proyecto. 
+
 - lefnica.sql: Es el archivo para la base de datos, este se carga en phpmyadmin para crear las tablas necesarias de la base de datos.
 
 - public (carpeta), dashboard.css, global.css, humedad.php, info-alimento.css, range.php, size_db.php, table.php, tablero.php, team.css, temperatura.php: Son los archivos para la página web, estos se agregan en una carpeta (ej. lefnica) en la carpeta "htdocs" de MAMP o XAMPP.
