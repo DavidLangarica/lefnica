@@ -1,7 +1,12 @@
 # lefnica.
 Archivos necesarios para el desarrollo del proyecto lefnica.
 
-## Archivos
+## Colaboradores
+Antonio Miranda
+David Langarica
+Alan González
+
+### Archivos
 
 - lefnica.sql: Es el archivo para la base de datos, este se carga en phpmyadmin para crear las tablas necesarias de la base de datos.
 
