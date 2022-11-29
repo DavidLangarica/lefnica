@@ -1,0 +1,207 @@
+.lema {
+    font-size: 58px;
+    text-align: center;
+    color: #303030;
+    font-weight: 700;
+}
+
+.anim-lottie-main {
+    margin: -190px 0px 0px;
+}
+
+.main-land {
+    border-radius: 10px;
+    padding: 0px 80px 0px;
+    height: 70vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+}
+
+.card-team {
+    padding: 0px 30px 0px;
+    text-align: center;
+    height: 320px;
+}
+
+.team-wrap {
+    padding: 60px;
+    border-radius: 10px;
+}
+
+.subt-center {
+
+    text-align: center;
+
+    font-size: 30px;
+}
+
+
+.img-teammate {
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.antonio {
+    background-image: url("./public/team/antonio.png");
+    background-size: 90%;
+    background-position-x: 10px;
+}
+
+.david {
+    background-image: url("./public/team/david.png");
+    background-size: 150%;
+    background-position-y: -5px;
+}
+
+.alan {
+    background-image: url("./public/team/alan.png");
+    background-size: 100%;
+    background-position-y: -30px;
+}
+
+.name-team {
+
+margin-top: 20px;
+}
+
+.rol-team {
+
+    font-size: var(--font-size-3xs);
+
+    margin-top: 4px;
+
+    margin-bottom: 20px;
+
+    color: #303030;
+}
+
+.socials-team {
+    background-color: #fafafa;
+    width: 30px;
+    border-radius: 300px;
+    padding: 7px;
+    box-shadow: 3px 4px 14px rgb(0 0 0 / 13%);
+    margin-top: 30px;
+}
+
+.socials-logo-team {
+    width: 90%;
+}
+
+.product-dev {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.about-lef {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 145px;
+    margin: 50px 30px 50px;
+}
+
+.about-subw {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 100px 20px;
+    text-align: center;
+}
+
+.donut {
+    width: 90px;
+    margin-bottom: 20px;
+}
+
+.txt-si {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.title-pm {
+
+    color: #303030;
+
+    font-weight: 800;
+
+    font-size: 50px;
+
+    margin-bottom: 50px;
+}
+
+.about-txt {
+    font-size: 16px;
+    color: var(--color-gray-300);
+    line-height: 30px;
+}
+
+.about-prod {
+    margin: 80px 0px 80px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 40% 55%;
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    align-items: center;
+    padding: 80px 10px 80px;
+    background-color: #fff7ec;
+    border-radius: 10px;
+}
+
+.desctxt {
+    text-align: left;
+    padding-left: 50px;
+}
+
+.sources{
+    text-align: left;
+    padding: 0px 50px 0px;
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.ods-wrap{
+    
+margin: 100px 0px 100px 0px;
+}
+
+.ods-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 100px;
+    margin-top: 60px;
+    padding: 0px 100px 0px 100px;
+    align-items: start;
+}
+
+.ods-logo{
+    width: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.ods-sp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,613 @@
+#dashboard{
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.main-title {
+  position: absolute;
+  top: 30px;
+  left: 3%;
+  font-size: 35px;
+  font-weight: 800;
+  color: var(--color-orange-300);
+}
+
+.grid-dashboard{
+  width: 93%;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+}
+
+.dummy-grid-row{
+  height: 40px;
+}
+
+.dummy-grid-row-center{
+  height: 40px;
+}
+
+.dash-first-col,
+.dash-second-col{
+  display: flex;
+  flex-direction: column;
+}
+
+.dash-second-col{
+  border-radius: var(--br-lg);
+  background-color: #fff3e5;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.cards-title{
+  font-size: 23px;
+  font-weight: 520;
+  width: 90%;
+  color: var(--color-orange-300);
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.dash-card-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  height: 376px;
+}
+
+.dash-card-center-wrap{
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  width: 90%;
+  height: 322px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.dash-graph-wrap{
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  box-shadow: 0 0px 0px;
+  width: 382px;
+  height: 322px;
+  margin: 20px;
+}
+
+.food-type-wrap{
+  margin-top: 20px;
+  border-radius: 300px;
+  border: 8px solid;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 119px;
+  height: 119px;
+
+  padding: 10px;
+
+  border-color: var(--color-orange-200);
+}
+
+.type-img{
+  width: 80%;
+  height: 80%;
+}
+
+.info-desc-wrap{
+  margin-top: 40px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.oneinfo-desc{
+  font-size: 13px;
+}
+
+.desc-subtitle,
+.graph-title{
+  font-size: 16px;
+  color: var(--color-gray-300);
+  margin-bottom: 6px;
+}
+
+.info-dash{
+  font-weight: 500;
+  color: var(--color-gray-300);
+}
+
+.only-txt-dash{
+  font-size: 14px;
+  text-align: left;
+  width: 90%;
+}
+
+.rectangle-input {
+  position: absolute;
+  top: 311px;
+  left: 529px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  width: 382px;
+  height: 282px;
+}
+.rectangle-input {
+  cursor: pointer;
+  top: 650px;
+}
+.grficas-b {
+  position: absolute;
+  top: 258px;
+  left: 529px;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+  color: var(--color-orange-300);
+  width: 217px;
+  height: 47px;
+}
+.rectangle-div6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  width: 383px;
+  height: 297px;
+}
+.datos-del-alimento {
+  position: absolute;
+  top: 18px;
+  left: 33px;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+  font-family: var(--font-manrope);
+  color: var(--color-orange-300);
+  width: 249px;
+  height: 47px;
+}
+.nombre-manzana-div {
+  top: 255px;
+  left: 33px;
+  font-weight: 500;
+}
+.ambiente-ideal,
+.general-b,
+.nombre-manzana-div,
+.temperatura-23c-div {
+  position: absolute;
+  display: inline-block;
+  width: 160px;
+  height: 18.13px;
+}
+.temperatura-23c-div {
+  top: 235px;
+  left: 184px;
+  font-weight: 500;
+  text-align: right;
+}
+.ambiente-ideal,
+.general-b {
+  top: 210px;
+}
+.ambiente-ideal {
+  left: 184px;
+  text-align: right;
+}
+.general-b {
+  left: 33px;
+}
+.humedad-95-div,
+.tipo-fruta-div {
+  position: absolute;
+  font-weight: 500;
+  display: inline-block;
+}
+.humedad-95-div {
+  top: 255.49px;
+  left: 184px;
+  text-align: right;
+  width: 160px;
+  height: 18.13px;
+}
+.tipo-fruta-div {
+  top: 235px;
+  left: 33px;
+  width: 111.13px;
+  height: 18.92px;
+}
+.ellipse-icon,
+.image-21-icon {
+  width: 119px;
+  height: 119px;
+}
+.image-21-icon {
+  top: 97px;
+  left: 158px;
+  width: 67px;
+  height: 67px;
+  object-fit: cover;
+}
+.group-div,
+.rectangle-div7 {
+  position: absolute;
+  width: 383px;
+}
+.group-div {
+  top: 246px;
+  left: 94px;
+  height: 297px;
+  font-size: var(--font-size-4xs);
+  font-family: var(--font-montserrat);
+}
+.rectangle-div7 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  height: 392px;
+}
+.descripcin-b {
+  position: absolute;
+  top: 27px;
+  left: 33px;
+  display: inline-block;
+  width: 249px;
+  height: 49.13px;
+}
+.lorem-ipsum-dolor {
+  font-weight: 500;
+}
+.blank-line-p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.clic-aqu-b {
+  text-decoration: underline;
+  font-family: var(--font-montserrat);
+}
+.lorem-ipsum-dolor-sit-amet-con {
+  position: absolute;
+  top: 75px;
+  left: 33px;
+  font-size: var(--font-size-4xs);
+  color: var(--color-gray-300);
+  display: inline-block;
+  width: 326px;
+  height: 295px;
+  font-family: var(--font-montserrat);
+}
+.group-div1,
+.reporte-b {
+  position: absolute;
+  top: 576px;
+  left: 94px;
+  width: 383px;
+  height: 392px;
+  font-size: var(--font-size-lg);
+  color: var(--color-orange-300);
+}
+.reporte-b {
+  top: 27px;
+  left: 33px;
+  display: inline-block;
+  font-family: var(--font-manrope);
+  width: 249px;
+  height: 49.13px;
+}
+.humedad-actual-26c,
+.temperatura-actual-26c {
+  position: absolute;
+  top: 82px;
+  left: 33px;
+  font-weight: 500;
+  display: inline-block;
+  width: 191px;
+  height: 18px;
+}
+.humedad-actual-26c {
+  top: 106px;
+}
+.group-div2 {
+  position: absolute;
+  top: 576px;
+  left: 962px;
+  width: 383px;
+  height: 392px;
+  font-size: var(--font-size-4xs);
+  font-family: var(--font-montserrat);
+}
+.estado-b {
+  position: absolute;
+  top: 18px;
+  left: 33px;
+  display: inline-block;
+  width: 249px;
+  height: 47px;
+}
+.cancel-icon {
+  position: absolute;
+  top: 59px;
+  left: 130px;
+  width: 123.24px;
+  height: 123.24px;
+}
+.tu-alimento-no-se-encuentra-en {
+  position: absolute;
+  top: 199px;
+  left: 33px;
+  font-size: var(--font-size-4xs);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-gray-300);
+  display: inline-block;
+  width: 326px;
+  height: 75px;
+}
+.group-div3 {
+  position: absolute;
+  top: 246px;
+  left: 962px;
+  width: 383px;
+  height: 297px;
+  font-size: var(--font-size-lg);
+  color: var(--color-orange-300);
+}
+.temperatura-div,
+.temperatura-vs-tiempo {
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+}
+.temperatura-vs-tiempo {
+  top: 321px;
+  left: 635px;
+  font-size: var(--font-size-3xs);
+  font-weight: 800;
+}
+.temperatura-div {
+  top: 488px;
+  left: 537px;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.tiempo-div {
+  top: 563px;
+  left: 710px;
+}
+.humedad-div,
+.humedad-vs-tiempo,
+.tiempo-div,
+.tiempo-div1 {
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+}
+.humedad-div {
+  top: 826px;
+  left: 537px;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.humedad-vs-tiempo,
+.tiempo-div1 {
+  top: 904px;
+  left: 710px;
+}
+.humedad-vs-tiempo {
+  top: 662px;
+  left: 647px;
+  font-size: var(--font-size-3xs);
+  font-weight: 800;
+}
+.dashboard-div {
+  position: relative;
+  background-color: var(--color-orange-200);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xs);
+  color: var(--color-gray-300);
+  font-family: var(--font-manrope);
+}
+
+.material-symbols-outlined.md-xl{
+  font-size: 120px;
+}
+
+.state-description{
+  padding: 0px 20px 0px;
+  margin-top: 20px;
+  text-align: left;
+  font-size: 13px;
+  color: #2f3333;
+}
+
+.state-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.st-wrap{
+  text-align: left;
+
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  
+}
+
+.state-txt{
+  text-align: left;
+  font-size: 13px;
+  padding: 5px 0px 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: left;
+
+  font-weight: 500;
+  color: var(--color-gray-300);
+}
+
+.dummydiv-state{
+  width: 20px;
+}
+
+table.report_table {
+  position: sticky;
+  top: 0px;
+
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #e3e3e3;
+  border-style: solid;
+  color: #000000;
+}
+
+table.report_table td, table.report_table th {
+  width: 110px;
+  border-width: 2px;
+  border-color: #e3e3e3;
+  border-style: solid;
+  padding: 3px;
+
+  text-align: center;
+}
+
+th{
+  top: 0px;
+  font-size: 13px;
+}
+
+table.report_table td{
+  font-size: 13px;
+}
+
+table.report_table thead {
+  background-color: #dedede;
+  margin-bottom: 20%;
+}
+
+.table-wrap{
+  height: 55%;
+  width: 86%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  overflow-y: scroll;
+}
+
+.report-main{
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: 1fr;
+  margin-bottom: 20px;
+}
+
+.data-actual-wrap{
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+button.back-wrap {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+
+  position: absolute;
+  top: 75px;
+  left: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: 13px;
+  color: var(--color-gray-300);
+  cursor: pointer;
+}
+
+button.back-wrap:hover {
+    color: #ee6e6e;
+}
+
+.material-icons-outlined {
+  color: #888888;
+  transition: all 0.1s ease-out;
+}
+
+.material-icons-outlined:hover {
+  color: #ff9800;
+  transform: scale(1.25) translateY(-4px);
+  cursor: pointer;
+}
+
+.sub-item {
+  width: 120%;
+  display: flex;
+  align-items: center;
+  gap: 0.725rem;
+  cursor: pointer;
+  padding: 0.5rem 0.5rem 0.5rem;
+}
+
+.sub-item:hover {
+  background-color: rgba(232, 232, 232, 0.4);
+}
+
+.sub-item:hover .material-icons-outlined {
+  color: #ff9800;
+  transform: scale(1.08) translateY(-2px);
+  cursor: pointer;
+}
+
+.sub-item:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.sub-item {
+  font-size: 0.85rem;
+  color: #888888;
+  font-weight: 500;
+  flex: 1;
+}
+
+button.logout {
+	background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+}

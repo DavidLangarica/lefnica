@@ -1,0 +1,44 @@
+:root {
+  /* fonts */
+  --font-modak: Modak;
+  --font-montserrat: Montserrat;
+  --font-manrope: Manrope;
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-6xs: 11.3px;
+  --font-size-5xs: 12px;
+  --font-size-4xs: 14.19px;
+  --font-size-3xs: 15px;
+  --font-size-2xs: 20px;
+  --font-size-xs: 20.68px;
+  --font-size-sm: 24.4px;
+  --font-size-base: 24px;
+  --font-size-lg: 25px;
+  --font-size-xl: 25.07px;
+  --font-size-2xl: 41.12px;
+  --font-size-3xl: 46.4px;
+  --font-size-4xl: 48px;
+  --font-size-5xl: 70.59px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-brown: #fd4755;
+  --color-orange-100: #f7ac3e;
+  --color-orange-200: #ff9e2c;
+  --color-orange-300: #ff9417;
+  --color-orange-400: #f7931e;
+  --color-orange-500: #ff8900;
+  --color-orange-600: #e27a00;
+  --color-gray-100: #faf7f4;
+  --color-gray-200: #666;
+  --color-gray-300: #363e56;
+  --color-gray-400: #333;
+
+  /* border radiuses */
+  --br-xs: 10px;
+  --br-sm: 10.34px;
+  --br-md: 18px;
+  --br-lg: 20px;
+  --br-xl: 25px;
+}
