@@ -1,12 +1,12 @@
 # lefnica.
-Archivos necesarios para el desarrollo del proyecto lefnica para la materia Implementación de internet de las cosas (Gpo 501) del periodo AD2022.
+Archivos necesarios para el desarrollo del proyecto "lefnica" para la materia Implementación de internet de las cosas (Gpo 501) del periodo AD2022.
 
 ## Equipo
 - Antonio Miranda
 - David Langarica
 - Alan González
 
-### Archivos
+## Archivos
 
 - Manual lefnica.pdf: Es el manual del proyecto, en el que encontrarás la documentación y el paso a paso para recrear este proyecto. 
 
