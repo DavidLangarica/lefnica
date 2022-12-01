@@ -1,5 +1,5 @@
 # lefnica.
-Archivos necesarios para el desarrollo del proyecto lefnica.
+Archivos necesarios para el desarrollo del proyecto lefnica para la materia Implementación de internet de las cosas (Gpo 501) del periodo AD2022.
 
 ## Equipo
 - Antonio Miranda
@@ -18,5 +18,3 @@ Archivos necesarios para el desarrollo del proyecto lefnica.
 
 - NodeMCU2.ino (En la carpeta Arduino): Es el archivo con el código de Arduino de conexión con el NodeMCU.
 
-
-Implementación de internet de las cosas (Gpo 501) 2022
