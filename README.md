@@ -1,7 +1,7 @@
 # lefnica.
 Archivos necesarios para el desarrollo del proyecto lefnica.
 
-## Equipó
+## Equipo
 - Antonio Miranda
 - David Langarica
 - Alan González
@@ -17,3 +17,6 @@ Archivos necesarios para el desarrollo del proyecto lefnica.
 - dbwrite.php: Es el archivo de conexión del NodeMCU a la base de datos, se agrega en la carpeta "htdocs" de MAMP o XAMPP..
 
 - NodeMCU2.ino (En la carpeta Arduino): Es el archivo con el código de Arduino de conexión con el NodeMCU.
+
+
+Implementación de internet de las cosas (Gpo 501) 2022
