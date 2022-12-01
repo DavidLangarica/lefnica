@@ -1,7 +1,7 @@
 # lefnica.
 Archivos necesarios para el desarrollo del proyecto lefnica.
 
-## Colaboradores
+## Equipó
 - Antonio Miranda
 - David Langarica
 - Alan González
